@@ -9,7 +9,6 @@ const config = {
 }
 const sentence = concat(config.str1, config.str2);
 const formattedSentence = sentence.replace(/\r?\n/g, '<br>');
-
 const html = `
 	<h1 class="title">${config.title}</h1>
 	<div class="main"><p class="text">${formattedSentence}</p></div>
