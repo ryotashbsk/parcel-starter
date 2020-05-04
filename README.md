@@ -4,7 +4,7 @@ https://dev.ryotashibasaki.com/parcel-starter/
 
 ## Parcel実行
 ```
-yarn install
+yarn
 yarn dev
 yarn build
 ```
